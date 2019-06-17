@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+
+@if (ViewBag.Produtos != null)
+{
+    foreach (var item in ViewBag.Produtos)
+    {
+        @item<br />
+    }
+}
